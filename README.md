@@ -1,62 +1,165 @@
-# 🛡️ Phishing Awareness Simulation
+# 🎣 Phishing Awareness Simulation
 
-![Project](https://img.shields.io/badge/Project-Phishing%20Awareness%20Simulation-blue)
-![Type](https://img.shields.io/badge/Type-Cybersecurity%20Awareness%20Project-purple)
+![Project](https://img.shields.io/badge/Project-Cybersecurity%20Awareness-blue)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Ethical](https://img.shields.io/badge/Mode-Training%20Only-orange)
-![Tech](https://img.shields.io/badge/Stack-HTML%20%7C%20CSS%20%7C%20Static%20Portal-informational)
+![Domain](https://img.shields.io/badge/Domain-Social%20Engineering-orange)
+![Year](https://img.shields.io/badge/Year-2025--2026-lightgrey)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-A clean, educational phishing-awareness project designed to demonstrate how social engineering works, how fake login pages can look convincing, and why user training matters.  
-This repository is intended for **awareness, reporting, and training** — not for real-world phishing.
+> A practical cybersecurity awareness project that demonstrates how phishing attacks exploit human behavior through deceptive emails and fake login pages. The project simulates a phishing campaign in a controlled environment to educate users on recognizing and preventing social engineering attacks.
 
 ---
 
-## ✨ Project Overview
+## 👤 Author
 
-This project simulates a realistic phishing workflow in a safe and controlled way:
+| Field            | Details                            |
+| ---------------- | ---------------------------------- |
+| **Name**         | Himanshu Soni                      |
+| **Project**      | Cybersecurity Awareness Simulation |
+| **Organization** | Naviotech Solution Pvt Ltd         |
+| **Domain**       | Cybersecurity · Social Engineering |
+| **Year**         | 2026                          |
 
-1. A phishing-style email is presented.
-2. Users are shown an informed consent / training disclaimer screen.
-3. A fake Google-style login page demonstrates common red flags.
-4. Participants complete an awareness summary and feedback survey.
-5. Results are analyzed and documented in the report and presentation.
+---
 
-The goal is to help users recognize phishing indicators such as:
-- suspicious sender addresses
-- urgent language and time pressure
-- fake or misspelled domains
-- convincing login-page lookalikes
-- credential-harvesting tactics
+## 📋 Table of Contents
+
+* [Overview](#-overview)
+* [Objectives](#-objectives)
+* [Phishing Attack Lifecycle](#-phishing-attack-lifecycle)
+* [Methodology](#-methodology)
+* [Simulation Workflow](#-simulation-workflow)
+* [Results](#-results)
+* [Screenshots Included](#-screenshots-included)
+* [Repository Structure](#-repository-structure)
+* [Key Findings](#-key-findings)
+* [Awareness Recommendations](#-awareness-recommendations)
+* [Technologies Used](#-technologies-used)
+* [References](#-references)
+* [License](#-license)
+
+---
+
+## 📌 Overview
+
+Phishing remains one of the most successful cyberattack techniques because it targets human behavior rather than technical vulnerabilities.
+
+This project demonstrates how attackers use:
+
+* Fake emails
+* Urgent messages
+* Brand impersonation
+* Credential harvesting pages
+* Social engineering techniques
+
+The simulation was conducted solely for educational and awareness purposes to help users recognize phishing indicators and improve cybersecurity habits.
 
 ---
 
 ## 🎯 Objectives
 
-- Build awareness of phishing and social engineering risks
-- Show how urgency and authority are used to manipulate users
-- Demonstrate how a fake login page can appear legitimate
-- Measure user reactions to a simulated phishing scenario
-- Share practical defenses and preventive habits
+1. Demonstrate how phishing attacks are conducted.
+2. Simulate a realistic phishing workflow.
+3. Analyze user reactions to phishing attempts.
+4. Measure awareness levels before and after training.
+5. Educate users on phishing detection techniques.
+6. Promote safe online behavior and reporting practices.
 
 ---
 
-## 📊 Key Outcomes
+## 🎣 Phishing Attack Lifecycle
 
-- 19 phishing emails were sent
-- 12 emails were opened
-- 11 openers clicked the phishing link
-- 7 participants completed the full simulation
-- 5 participants nearly entered real credentials
-- 3 participants reported the message as suspicious
-
-These results highlight the gap between knowing about phishing and actually resisting it under pressure.
+```text
+Attacker
+    │
+    ▼
+Phishing Email
+    │
+    ▼
+Victim Clicks Link
+    │
+    ▼
+Fake Login Page
+    │
+    ▼
+Credential Entry Attempt
+    │
+    ▼
+Awareness Training
+    │
+    ▼
+Survey & Feedback
+```
 
 ---
 
-## 🧩 Project Structure
+## 🔬 Methodology
 
-```bash
-.
+1. Design a phishing-style email scenario.
+2. Create a fake login page for demonstration.
+3. Display consent and awareness disclaimer.
+4. Simulate user interaction with the phishing page.
+5. Record educational outcomes.
+6. Collect participant feedback.
+7. Analyze responses and awareness improvements.
+8. Document findings and recommendations.
+
+---
+
+## 📊 Results
+
+| Metric                     | Value |
+| -------------------------- | ----- |
+| Phishing Emails Sent       | 19    |
+| Emails Opened              | 12    |
+| Users Who Clicked          | 11    |
+| Simulation Completions     | 7     |
+| Near Credential Submission | 5     |
+| Suspicious Reports         | 3     |
+
+### Key Observation
+
+Many participants recognized phishing concepts theoretically but still interacted with suspicious content when presented in a realistic scenario.
+
+---
+
+## 🖼️ Screenshots Included
+
+### Email Simulation
+
+* Sent phishing email sample
+* Password reset phishing scenario
+
+### Fake Website Demonstration
+
+* Consent and disclaimer page
+* Fake Google-style login page
+* Credential entry demonstration
+* Simulation success page
+
+### Awareness Training
+
+* Training completion summary
+* User feedback collection
+
+### Survey Analysis
+
+* Login button interaction chart
+* Credential awareness chart
+* Phishing realism ratings
+* Awareness comparison graphs
+* Participant comments section
+
+---
+
+## 📁 Repository Structure
+
+```text
+Phishing-Awareness-Simulation/
+│
+├── README.md
+├── LICENSE
+│
 ├── screenshots/
 │   ├── 01_sent_phishing_email_password_reset.png
 │   ├── 02_fake_site_disclaimer_consent_screen.png
@@ -70,104 +173,79 @@ These results highlight the gap between knowing about phishing and actually resi
 │   ├── 10_feedback_responses_convincing_bar_chart.png
 │   ├── 11_feedback_responses_awareness_before_bar_chart.png
 │   └── 12_feedback_responses_comments_section.png
+│
 ├── documentation/
 │   └── phishing_image_documentation.pdf
-├── presentation/            
+│
+├── presentation/
 │   └── PhishingAwarenessSimulation.pptx
+│
 ├── data/
 │   ├── phishing_click_stats.html
 │   └── phishing_survey_pie_charts.html
-├── report/
-│   └── Phishing_Report_Final_v3_1.docx
-└── README.md
+│
+└── report/
+    └── Phishing_Report_Final_v3_1.docx
 ```
 
 ---
 
-## 🖼️ Included Assets
+## 🔍 Key Findings
 
-### Screenshots
-The screenshot set documents the full simulation flow, including:
-- phishing email sample
-- consent / disclaimer screen
-- fake login page states
-- credential-entry demo
-- completion summary
-- feedback charts and comments
-
-### Documentation
-A detailed PDF documentation file is included for reference and presentation support.
-
-### Presentation
-A slide deck is included for project demo, viva, and reporting use.
-
-### Data Visualizations
-Interactive HTML pages show:
-- phishing click statistics
-- survey response charts
-
-### Final Report
-The Word report contains the full project write-up, findings, analysis, and recommendations.
+1. Phishing attacks remain highly effective against users.
+2. Urgency and authority significantly influence decisions.
+3. Visual similarity increases trust in fake websites.
+4. Users often overlook suspicious URLs.
+5. Awareness training improves phishing detection rates.
+6. Continuous education is essential for long-term resilience.
 
 ---
 
-## 🛠️ Tech Stack
+## ✅ Awareness Recommendations
 
-- HTML
-- CSS
-- Static website / demo portal
-- Data visualization with HTML outputs
-- Documentation in DOCX, PDF, and PPTX
-
----
-
-## 🔐 Ethics and Safety
-
-This project is a **training simulation**.  
-It does **not** collect real credentials, and it is meant only to teach safe behavior.
-
-The recommended best practices from the project include:
-- enabling multi-factor authentication
-- checking sender domains carefully
-- verifying URLs before clicking
-- reporting suspicious emails
-- running regular awareness training
+* Enable Multi-Factor Authentication (MFA)
+* Verify sender email addresses carefully
+* Inspect URLs before clicking links
+* Avoid entering credentials on unfamiliar sites
+* Report suspicious emails immediately
+* Conduct regular phishing awareness training
+* Promote a security-first workplace culture
 
 ---
 
-## 📈 Findings Summary
+## 🛠️ Technologies Used
 
-The project shows that users are often influenced by:
-- urgency cues
-- familiar-looking sender identities
-- convincing visual design
-- task-focused behavior under pressure
-
-The strongest lesson is simple: **awareness is important, but habit is stronger**.  
-A user should pause, verify, and inspect before entering any credentials.
-
----
-
-## 🚀 How to Present This Project
-
-You can use this repository for:
-- academic submission
-- cybersecurity awareness demo
-- viva presentation
-- internal training showcase
-- portfolio project
+* HTML
+* CSS
+* JavaScript
+* Survey Analytics
+* Data Visualization
+* PowerPoint
+* PDF Documentation
+* Cybersecurity Awareness Techniques
 
 ---
 
-## 👨‍💻 Author
+## 📚 References
 
-**Himanshu Soni**  
-Cybersecurity Awareness Project  
-Naviotech Solutions Pvt. Ltd.
+| #   | Source                                    |
+| --- | ----------------------------------------- |
+| [1] | OWASP Phishing Prevention Guide           |
+| [2] | NIST Cybersecurity Framework              |
+| [3] | CISA Phishing Guidance                    |
+| [4] | Google Security Awareness Resources       |
+| [5] | Verizon Data Breach Investigations Report |
+| [6] | ENISA Threat Landscape Report             |
 
 ---
 
-## 📌 Note
+## 📄 License
 
-This project is for educational demonstration only. It should be used responsibly and never adapted to deceive users or collect information without consent.
+This project is licensed under the **MIT License** and is intended strictly for educational and awareness purposes.
 
+---
+
+<p align="center">
+  <b>Cybersecurity Awareness · Social Engineering · 2025–2026</b><br/>
+  Made with ❤️ by Himanshu Soni | Naviotech Solution Pvt Ltd
+</p>
